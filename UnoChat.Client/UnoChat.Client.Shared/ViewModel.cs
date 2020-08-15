@@ -45,7 +45,7 @@ namespace UnoChat.Client
             _sendMessage = new MVx.Observable.Command();
 
             _connection = new HubConnectionBuilder()
-                .WithUrl("https://unochatservice20200716114254.azurewebsites.net/ChatHub")
+                .WithUrl("https://unochatservice20200815204035.azurewebsites.net/ChatHub")
                 .WithAutomaticReconnect()
                 .Build();
         }
